@@ -1,27 +1,27 @@
 
 public class Karte {
-	private String wert;
-	private String farbe;
+	private int wert;
+	private int farbe;
 	
-	public Karte(String wert, String farbe){
+	public Karte(int wert, int farbe){
 		this.wert = wert;
 		this.farbe = farbe;
 	}
 
 	
-	public String getWert() {
+	public int getWert() {
 		return wert;
 	}
 
-	public void setWert(String wert) {
+	public void setWert(int wert) {
 		this.wert = wert;
 	}
 
-	public String getFarbe() {
+	public int getFarbe() {
 		return farbe;
 	}
 
-	public void setFarbe(String farbe) {
+	public void setFarbe(int farbe) {
 		this.farbe = farbe;
 	}
 	

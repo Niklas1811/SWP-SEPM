@@ -1,0 +1,62 @@
+Niklas@NiKo MINGW64 ~
+$ cd D:/4BHW/Poker
+
+Niklas@NiKo MINGW64 /d/4BHW/Poker (master)
+$ git init
+Reinitialized existing Git repository in D:/4BHW/Poker/.git/
+
+Niklas@NiKo MINGW64 /d/4BHW/Poker (master)
+$ mv .gitignore.txt .gitignore
+
+Niklas@NiKo MINGW64 /d/4BHW/Poker (master)
+$ git add .gitignore
+
+Niklas@NiKo MINGW64 /d/4BHW/Poker (master)
+$ git add src
+
+Niklas@NiKo MINGW64 /d/4BHW/Poker (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   .gitignore
+        new file:   src/Karte.java
+        new file:   src/Spielbrett.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .classpath
+        .project
+        .settings/
+        bin/
+
+
+Niklas@NiKo MINGW64 /d/4BHW/Poker (master)
+$ git commit -m "first commit"
+[master (root-commit) a845c71] first commit
+ 3 files changed, 254 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 src/Karte.java
+ create mode 100644 src/Spielbrett.java
+
+Niklas@NiKo MINGW64 /d/4BHW/Poker (master)
+$ git remote add origin https://github.com/Niklas1811/SWP-SEPM.git
+
+Niklas@NiKo MINGW64 /d/4BHW/Poker (master)
+$ git push -u origin master
+Counting objects: 6, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 1.68 KiB | 0 bytes/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To https://github.com/Niklas1811/SWP-SEPM.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+Niklas@NiKo MINGW64 /d/4BHW/Poker (master)
+$
