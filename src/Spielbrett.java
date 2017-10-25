@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 public class Spielbrett {
 	static int anzK = 52;
-	static Karte Hand[] = new Karte[5];
+	static Karte Hand[];
 	static Karte KartenStapel[];
 	static int wertDerKarte = 2;
 	static int farbeDerKarte = 1;
@@ -15,7 +15,7 @@ public class Spielbrett {
 	static int anzFlush = 0;
 	static int anzStraightFlush = 0;
 	static int anzRoyalFlush = 0;
-	static int anzFullHouse;
+	static int anzFullHouse = 0;
 
 	static boolean royalFlush() {
 		int zaehler = 0;
@@ -28,7 +28,7 @@ public class Spielbrett {
 			for (int i = 1; i < Hand.length; i++) {
 				if (Werte[i] == Werte[i - 1] + 1) {
 					zaehler++;
-				}
+				}//halloer01
 			}
 		} else {
 			return false;
